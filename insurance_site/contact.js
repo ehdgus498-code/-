@@ -26,7 +26,7 @@ module.exports = async function handler(req, res) {
       },
       body: JSON.stringify({
         from: '보험상담 접수 <onboarding@resend.dev>',
-        to: ['kim_dh2@nate.com'],
+        to: ['ehdgus498@gmail.com'],
         subject: `[신규 보험상담] ${String(name).slice(0,30)}님`,
         html
       })
